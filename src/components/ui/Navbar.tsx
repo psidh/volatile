@@ -8,9 +8,9 @@ const NavBar = () => {
     setIsNavOpen(!isNavOpen);
   };
 
-  const navClass = `py-1 px-8 rounded-full border 
-  hover:bg-white-400 transform transition-all duration-500 font-semibold my-2 hover:text-white 
-  hover:px-6 hover:border-sky-600`;
+  const navClass = `py-1 px-4 rounded-full hover:bg-white-400 transform 
+  transition-all duration-500 font-semibold my-2 hover:text-white 
+  hover:-translate-y-1 hover:underline  underline-offset-4`;
 
   return (
     <div>
@@ -19,11 +19,11 @@ const NavBar = () => {
           <img
             src='/logo.png'
             alt='Logo'
-            className='w-24 h-24 rounded-full hover:opacity-75'
+            className='w-16 h-16 rounded-full hover:opacity-75'
           />
         </a>
 
-        <div className='justify-center gap-6 hidden lg:flex items-center space-x-4'>
+        <div className='justify-center gap-4 hidden lg:flex items-center'>
           <a href='/about' className={navClass}>
             About
           </a>
