@@ -8,11 +8,11 @@ export default function Join() {
           type='text'
           title='email'
           placeholder='Enter your email'
-          className='pl-4 bg-black border-neutral-600 border-2 py-4 px-8 rounded-t-lg rounded-b-lg rounded-l-lg rounded-r-none'
+          className='pl-4 bg-black border-neutral-600 border-2 py-4 px-8 rounded-t-lg rounded-b-lg rounded-l-lg rounded-tr-none rounded-br-none'
         />
         <button className='text-center py-3 px-8 border-sky-400 
         border-t-2 border-b-2 border-r-2 rounded-t-lg rounded-b-lg 
-        rounded-r-lg rounded-l-none bg-sky-400 font-bold text-2xl'>
+        rounded-r-lg rounded-tl-none rounded-bl-none bg-sky-400 font-bold text-2xl'>
           Join
         </button>
       </div>
