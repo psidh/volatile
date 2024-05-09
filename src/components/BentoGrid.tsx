@@ -23,9 +23,8 @@ export function BentoGridDemo() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
-        <div onClick={handlePostClick}>
+        <div key={i} onClick={handlePostClick}>
           <BentoGridItem
-            key={i}
             title={item.title}
             description={item.description}
             header={item.header}
